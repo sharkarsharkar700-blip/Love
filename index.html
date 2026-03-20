@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website 🚀</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshu Website 🚀</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            text-align: center;
-            color: white;
-        }
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+    }
 
-        header {
-            padding: 20px;
-            font-size: 28px;
-            font-weight: bold;
-            background: rgba(0,0,0,0.2);
-        }
+    h1 {
+      margin-top: 50px;
+      font-size: 40px;
+    }
 
-        .box {
-            margin-top: 50px;
-        }
+    p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
 
-        button {
-            padding: 10px 20px;
-            font-size: 18px;
-            border: none;
-            border-radius: 10px;
-            background: yellow;
-            cursor: pointer;
-        }
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: white;
+      color: #0072ff;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
 
-        button:hover {
-            background: orange;
-        }
-    </style>
+    .btn:hover {
+      background: #ddd;
+      transform: scale(1.1);
+    }
+
+    .card {
+      background: rgba(255,255,255,0.2);
+      margin: 30px;
+      padding: 20px;
+      border-radius: 15px;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-    Hello Priyanshu 👋
-</header>
+  <h1>Hello Priyanshu 👋</h1>
+  <p>Welcome to My Website 😍</p>
 
-<div class="box">
-    <h1>Welcome to My Website 😍</h1>
-    <p>Ye meri pehli website hai 🚀</p>
+  <button class="btn" onclick="showMessage()">Click Me 😎</button>
+
+  <div class="card">
+    <h2>About Me</h2>
+    <p>Ye meri pehli website hai 🚀 aur main coding seekh raha hoon 💻</p>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("🔥 Welcome Priyanshu! Tumhari website mast lag rahi hai!");
+    }
+  </script>
+
+</body>
+</html>
